@@ -189,6 +189,21 @@
         color: #ffffff;
       }
 
+      .quote-button {
+        display: inline-block;
+        background-color: #03a8f0 !important;
+        color: #fff !important;
+        text-decoration: none !important;
+        font-size: 14px !important;
+        line-height: 48px;
+        width: 220px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        text-align: center;
+        font-weight: bold;
+      }
+
       /* -------------------------------------
           OTHER STYLES THAT MIGHT BE USEFUL
       ------------------------------------- */
@@ -384,11 +399,6 @@
                             background-repeat: no-repeat;"
                         align="center"
                       >
-                        <!--[if gte mso 9]>
-      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
-        <v:fill type="tile" src="https://firebasestorage.googleapis.com/v0/b/rarenotifications.appspot.com/o/MineNew1.png?alt=media&token=4dd28c00-9b0e-48ee-992c-5818f09bff09" color="#ffffff" />
-        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
-      <![endif]-->
                         <div
                           style="padding: 12px;
                              margin-bottom: 12px;
@@ -472,27 +482,15 @@
                           </tr>
                         </table>
 
-                        <table>
+                        <table border="0" cellspacing="0" cellpadding="0">
                           <tr>
-                            <td
-                              align="center"
-                              style="padding-top: 16px;padding-bottom: 16px;"
-                            >
-                              <a
-                                style="display: block; 
-                                background-color: #03a8f0;
-                                color: #fff;
-                                text-decoration: none !important;
-                                font-size: 14px !important;
-                                width: 220px;
-                                line-height: 48px; 
-                                height: 48px; 
-                                border-radius: 50px;
-                                text-align: center;
-                                font-weight: bold;"
-                                href="#"
-                                >RETRIEVE YOUR QUOTE</a
-                              >
+                            <td align="center">
+                              <a href="#"
+                                ><img
+                                  style="max-width: 600px; width: 100%;"
+                                  alt="Click to retrieve your quote"
+                                  src="https://firebasestorage.googleapis.com/v0/b/rarenotifications.appspot.com/o/Group%202.png?alt=media&token=394c4b0f-7d56-4b95-9bd0-c222df01ead6"
+                              /></a>
                             </td>
                           </tr>
                         </table>
@@ -505,14 +503,12 @@
                         align="center"
                         style="position: relative; 
                         top: -2px; 
-                        background-color: #BEE9E8; 
-                        background-image: url(https://firebasestorage.googleapis.com/v0/b/rarenotifications.appspot.com/o/RectangleWhite.png?alt=media&token=ef5b72f2-3343-4929-9017-4b2ea70dd06d);
-                        background-position: bottom;
-                        background-size: contain;
-                        background-repeat: no-repeat; "
+                        background-color: #BEE9E8; background-image: url(https://firebasestorage.googleapis.com/v0/b/rarenotifications.appspot.com/o/WhiteBG1.png?alt=media&token=66786979-8cf8-425e-a535-80ba3639353b); 
+                        background-size: cover;"
                       >
                         <table
-                          style="margin-top: 56px;padding-left: 16px; padding-right: 16px; background-color: #fff;border-radius: 6px; box-shadow: 1px 7px 26px -6px rgba(0,0,0,0.24); "
+                          width="100%"
+                          style="margin-top: 56px;padding-left: 16px; padding-right: 16px; box-sizing: border-box ; background-color: #fff;border-radius: 6px; box-shadow: 1px 7px 26px -6px rgba(0,0,0,0.24); "
                         >
                           <tr>
                             <td
@@ -538,7 +534,10 @@
                             </td>
                           </tr>
                           <tr>
-                            <td align="center" style="position: relative; top: -24px;">
+                            <td
+                              align="center"
+                              style="position: relative; top: -24px;"
+                            >
                               <a
                                 href="#"
                                 style="border-bottom: 2px dashed #03a8f0; font-weight: 400 !important; text-decoration: none !important; padding-bottom: 4px; font-size: 18px !important"
@@ -551,22 +550,28 @@
                     </tr>
                     <tr>
                       <td align="center">
-                        <div style="margin-top: 24px;margin-bottom:64px">
-                          <div
-                            style="font-weight: bold;
-                                 color: #183963; 
-                                 margin-bottom: 6px;
-                                font-size: 24px"
-                          >
-                            QUOTE NUMBER:
-                          </div>
-                          <div
-                            style="color: #183963;letter-spacing: 1px; 
-                         font-size: 18px"
-                          >
-                            ABCDE0123456791011
-                          </div>
-                        </div>
+                        <table style="margin-bottom:64px;margin-top: 24px;">
+                          <tr>
+                            <td
+                              align="center"
+                              style="font-weight: bold;
+                              color: #183963; 
+                              margin-bottom: 6px;
+                             font-size: 24px"
+                            >
+                              QUOTE NUMBER:
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              align="center"
+                              style="color: #183963;letter-spacing: 1px; 
+                            font-size: 18px"
+                            >
+                              ABCDE0123456791011
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </table>
